@@ -1,0 +1,20 @@
+{
+  "name": "hermione-selenium-standalone-runner",
+  "version": "1.0.0",
+  "description": "Plugin to launch selenium-standalone package when Hermione starts.",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "author": "Anastasiia Kolonskaia",
+  "license": "MIT",
+  "dependencies": {
+    "delay": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
+  }
+}
