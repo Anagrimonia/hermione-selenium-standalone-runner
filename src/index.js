@@ -10,6 +10,7 @@ module.exports = (hermione) => {
 
     selenium = spawn('selenium-standalone', ['start'], {
       stdio: ['ignore', file, file],
+      shell: process.platform == 'win32',
     });
 
     await delay(2000);
