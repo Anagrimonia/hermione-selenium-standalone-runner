@@ -6,6 +6,7 @@
   "scripts": {
     "prepare": "husky install"
   },
+  "repository": "https://github.com/Anagrimonia/hermione-selenium-standalone-runner",
   "author": "Anastasiia Kolonskaia",
   "license": "MIT",
   "dependencies": {
@@ -16,5 +17,9 @@
     "husky": "^7.0.1",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js, css, md}": "prettier --write"
   }
 }
